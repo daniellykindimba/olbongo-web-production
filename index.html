@@ -236,8 +236,37 @@
     .ant-menu-submenu-arrow {
       color: red !important;
     }
+
+    .page {
+      position: absolute;
+      top: 100px;
+      left: 0;
+      right: 0;
+    }
+
+
+    .fade-appear,
+    .fade-enter {
+      opacity: 0;
+      z-index: 1;
+    }
+
+    .fade-appear-active,
+    .fade-enter.fade-enter-active {
+      opacity: 1;
+      transition: opacity 450ms linear 250ms;
+    }
+
+    .fade-exit {
+      opacity: 1;
+    }
+
+    .fade-exit.fade-exit-active {
+      opacity: 0;
+      transition: opacity 150ms linear;
+    }
   </style>
-  <script type="module" crossorigin src="/assets/index-9828f88f.js"></script>
+  <script type="module" crossorigin src="/assets/index-b3a3c680.js"></script>
   <link rel="stylesheet" href="/assets/index-5c6ad5f3.css">
 </head>
 
