@@ -1,0 +1,1 @@
+import{j as s,as as r,d2 as i}from"./index-e4267a92.js";import{B as e}from"./Breadcrumb-ac8e1230.js";const n=()=>s.jsxs(s.Fragment,{children:[s.jsxs(e,{children:[s.jsx(e.Item,{children:s.jsx(r,{to:"/odrive",children:"Home"})}),s.jsx(e.Item,{children:"Files"})]}),s.jsx(i,{})]}),m=()=>s.jsx(n,{});export{m as FilesPage};

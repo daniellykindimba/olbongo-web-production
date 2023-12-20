@@ -265,8 +265,52 @@
       opacity: 0;
       transition: opacity 150ms linear;
     }
+
+    /* Rest of your styles */
+    .background-cover {
+      background-image: url(/images/landing_cover.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      min-height: 45vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    .brain {
+      width: 100%;
+      height: 50vh;
+      background-color: pink;
+      border-radius: 50% 50% 60% 60%;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .brain::before {
+      content: "";
+      position: absolute;
+      top: 30px;
+      width: 50px;
+      height: 50px;
+      background-color: pink;
+      border-radius: 50%;
+      left: 15px;
+    }
+
+    .brain::after {
+      content: "";
+      position: absolute;
+      top: 30px;
+      width: 50px;
+      height: 50px;
+      background-color: pink;
+      border-radius: 50%;
+      right: 15px;
+    }
   </style>
-  <script type="module" crossorigin src="/assets/index-84802c99.js"></script>
+  <script type="module" crossorigin src="/assets/index-e4267a92.js"></script>
   <link rel="stylesheet" href="/assets/index-5c6ad5f3.css">
 </head>
 
