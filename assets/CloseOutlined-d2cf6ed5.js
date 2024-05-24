@@ -1,0 +1,1 @@
+import{r as t,bT as s,bU as e,eC as a}from"./index-e44e1a6d.js";var o=function(r,n){return t.createElement(s,e(e({},r),{},{ref:n,icon:a}))};o.displayName="CloseOutlined";const i=t.forwardRef(o);export{i as C};
