@@ -1,0 +1,1 @@
+import{r as t,bT as s,bU as e,eS as a}from"./index-7ac8fc92.js";var o=function(r,n){return t.createElement(s,e(e({},r),{},{ref:n,icon:a}))};o.displayName="CloseOutlined";const i=t.forwardRef(o);export{i as C};
