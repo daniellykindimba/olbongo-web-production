@@ -1,0 +1,1 @@
+import{r as e,bT as n,bU as t}from"./index-3fd7f13b.js";import{E as a}from"./EditOutlined-401a1613.js";var r=function(i,d){return e.createElement(n,t(t({},i),{},{ref:d,icon:a}))};r.displayName="EditOutlined";const c=e.forwardRef(r);export{c as E};

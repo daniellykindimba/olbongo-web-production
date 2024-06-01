@@ -1,0 +1,1 @@
+import{r,bT as c,bU as e,gy as o}from"./index-3fd7f13b.js";var a=function(t,n){return r.createElement(c,e(e({},t),{},{ref:n,icon:o}))};a.displayName="SearchOutlined";const s=r.forwardRef(a);export{s as S};
