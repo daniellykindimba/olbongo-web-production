@@ -1,0 +1,1 @@
+import{r,bT as n,bU as e,gx as a}from"./index-31656684.js";var t=function(o,d){return r.createElement(n,e(e({},o),{},{ref:d,icon:a}))};t.displayName="FolderOutlined";const s=r.forwardRef(t);export{s as F};
